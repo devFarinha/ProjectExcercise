@@ -31,6 +31,10 @@ public class Import
                 this.lastName.add(i, line.split(",")[1]);
                 i++;
             }
+<<<<<<< HEAD
+=======
+            reader.close();
+>>>>>>> 1288d67e89e698fee3e4e4585e749dfbb8df5dd1
         }catch (IOException e)
         {
             System.out.println(e);
